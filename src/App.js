@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Welcome from "./FunctionalComponet.js";
+import WelcomeClass from "./ClassComponent";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn Reactfddf
         </a>
         <Welcome name="Ridho" />
+        <WelcomeClass name="Ridho" />
       </header>
     </div>
   );
